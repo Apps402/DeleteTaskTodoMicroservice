@@ -1,4 +1,4 @@
-name: "Micro ToDo UI Image"
+name: "Delete Task"
 
 on: workflow_dispatch
 
