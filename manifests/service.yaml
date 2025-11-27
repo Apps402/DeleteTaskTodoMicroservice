@@ -1,11 +1,11 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: addtask-svc
+  name: deletetask-svc
 spec:
   type: LoadBalancer
   selector: 
-     apps: addtask
+     apps: deletetask
   ports:
     - port: 80
       targetPort: 8000
