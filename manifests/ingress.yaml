@@ -3,7 +3,7 @@ kind: Ingress
 metadata:
   name: deletetask-ingress
 spec:
-  ingressClassName: nginx
+  ingressClassName: azure-application-gateway
   rules:
     - host: deletetask.aparnasapps.icu
       http:
